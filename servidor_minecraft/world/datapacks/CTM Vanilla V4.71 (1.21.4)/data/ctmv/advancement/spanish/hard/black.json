@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cyan_shulker_box"
+    },
+    "title": {
+      "text": "Lana negra",
+      "color": "black",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtén una caja de Shulker cian",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:spanish/hard/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

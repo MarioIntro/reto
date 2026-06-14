@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_wool"
+    },
+    "title": {
+      "text": "Pink wool",
+      "color": "#FFC3E6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtain the Pink wool",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:english/wool/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

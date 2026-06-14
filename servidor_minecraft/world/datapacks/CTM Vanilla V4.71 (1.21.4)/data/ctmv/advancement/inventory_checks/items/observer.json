@@ -1,0 +1,21 @@
+{
+  "parent": "ctmv:inventory_checks/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:observer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ctmv:obtain_item/advancements/observer"
+    }
+  }
+  

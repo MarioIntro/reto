@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_relic"
+    },
+    "title": {
+      "text": "Lana negra",
+      "color": "black",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtén Aaron Cherof - Relic",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:spanish/disco/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

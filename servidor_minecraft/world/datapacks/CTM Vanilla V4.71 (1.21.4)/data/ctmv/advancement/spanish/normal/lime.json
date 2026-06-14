@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "text": "Lana lima",
+      "color": "green",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtén un frasco de experiencia",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:spanish/normal/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_13"
+    },
+    "title": {
+      "text": "Lana blanca",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtén C418 - 13",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:spanish/disco/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

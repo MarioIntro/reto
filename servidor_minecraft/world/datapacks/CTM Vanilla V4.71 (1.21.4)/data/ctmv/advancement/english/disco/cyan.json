@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_ward"
+    },
+    "title": {
+      "text": "Cyan wool",
+      "color": "dark_aqua",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtain C418 - ward",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:english/disco/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

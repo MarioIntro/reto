@@ -1,0 +1,21 @@
+{
+    "parent": "ctmv:inventory_checks/root",
+      "criteria": {
+        "requirement": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:music_disc_ward"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "rewards": {
+        "function": "ctmv:obtain_item/advancements/music_disc/ward"
+      }
+    }
+    

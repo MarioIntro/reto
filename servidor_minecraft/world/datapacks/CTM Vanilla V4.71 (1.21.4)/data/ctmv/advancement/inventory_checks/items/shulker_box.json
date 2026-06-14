@@ -1,0 +1,21 @@
+{
+  "parent": "ctmv:inventory_checks/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cyan_shulker_box"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ctmv:obtain_item/advancements/shulker_box"
+    }
+  }
+  

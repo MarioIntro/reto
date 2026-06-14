@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:lapis_block"
+      },
+      "title": {
+        "text": "Bloque de Lapislázuli",
+        "color": "blue",
+        "bold": true,
+        "italic": false
+      },
+      "description": "",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ctmv:spanish/hard/green",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+    }
+  }
+}

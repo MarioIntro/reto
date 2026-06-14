@@ -1,0 +1,21 @@
+{
+  "parent": "ctmv:inventory_checks/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:experience_bottle"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ctmv:obtain_item/advancements/xp_bottle"
+    }
+  }
+  

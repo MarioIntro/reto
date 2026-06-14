@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_banner_pattern"
+    },
+    "title": {
+      "text": "Lana lima",
+      "color": "green",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtén el diseño de estandarte de calavera",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:spanish/hard/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
+

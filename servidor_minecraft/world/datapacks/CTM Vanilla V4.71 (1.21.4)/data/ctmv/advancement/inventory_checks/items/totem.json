@@ -1,0 +1,21 @@
+{
+  "parent": "ctmv:inventory_checks/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:totem_of_undying"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ctmv:obtain_item/advancements/totem"
+    }
+  }
+  

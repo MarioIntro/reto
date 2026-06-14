@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_block"
+      },
+      "title": {
+        "text": "Block of Iron",
+        "color": "#E7E7E7",
+        "bold": true,
+        "italic": false
+      },
+      "description": "",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ctmv:english/nightmare/light_gray",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+    }
+  }
+}

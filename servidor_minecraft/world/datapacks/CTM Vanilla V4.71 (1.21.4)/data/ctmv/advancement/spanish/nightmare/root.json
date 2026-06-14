@@ -1,0 +1,46 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:clock",
+        "components": {
+          "minecraft:enchantment_glint_override": true
+        }
+      },
+      "title": [
+        {
+          "text": "⏩",
+          "color": "yellow",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": " CTM Vanilla V4 ",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "⏪",
+          "color": "yellow",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      "description": {
+        "text": "¡Consigue todas las lanas antes de que se acabe el tiempo! Modo actual: ☠ PESADILLA ☠",
+        "color": "white",
+        "bold": false,
+        "italic": false
+      },
+      "background": "minecraft:textures/block/bedrock.png",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

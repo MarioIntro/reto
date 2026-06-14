@@ -1,0 +1,21 @@
+{
+  "parent": "ctmv:inventory_checks/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:tube_coral"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ctmv:obtain_item/advancements/tube_coral"
+    }
+  }
+  

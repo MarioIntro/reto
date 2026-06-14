@@ -1,0 +1,20 @@
+#Change character in yellow instead of gold each time it updates
+schedule function ctmv:items_scoreboard/name 3t
+scoreboard players add name ItemsUpdate 1
+execute if score name ItemsUpdate matches 18 run scoreboard players set name ItemsUpdate 0
+
+#Actually change name
+execute if score name ItemsUpdate matches 1 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text":"C","bold":true,"color":"yellow"},{"text":"TM Vanilla V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 2 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "C","color": "gold","bold":true},{"text": "T","color": "yellow","bold":true},{"text":"M Vanilla V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 3 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "CT","color": "gold","bold":true},{"text": "M","color": "yellow","bold":true},{"text":" Vanilla V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 4 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "CTM ","color": "gold","bold":true},{"text": "V","color": "yellow","bold":true},{"text":"anilla V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 5 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "CTM V","color": "gold","bold":true},{"text": "a","color": "yellow","bold":true},{"text":"nilla V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 6 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "CTM Va","color": "gold","bold":true},{"text": "n","color": "yellow","bold":true},{"text":"illa V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 7 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "CTM Van","color": "gold","bold":true},{"text": "i","color": "yellow","bold":true},{"text":"lla V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 8 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "CTM Vani","color": "gold","bold":true},{"text": "l","color": "yellow","bold":true},{"text":"la V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 9 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "CTM Vanil","color": "gold","bold":true},{"text": "l","color": "yellow","bold":true},{"text":"a V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 10 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "CTM Vanill","color": "gold","bold":true},{"text": "a","color": "yellow","bold":true},{"text":" V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 11 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text": "CTM Vanilla ","color": "gold","bold":true},{"text": "V","color": "yellow","bold":true},{"text":"4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]
+execute if score name ItemsUpdate matches 12 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text":"CTM Vanilla V","bold":true,"color":"gold"},{"text":"4","bold":true,"color":"yellow"},{"text":" ⏪","color":"yellow"}]
+
+execute if score name ItemsUpdate matches 13 run scoreboard objectives modify Items displayname ["",{"text":"⏩ ","color":"yellow"},{"text":"CTM Vanilla V4","bold":true,"color":"gold"},{"text":" ⏪","color":"yellow"}]

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_wool"
+    },
+    "title": {
+      "text": "Lana azul",
+      "color": "blue",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtén la Lana azul",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:spanish/wool/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

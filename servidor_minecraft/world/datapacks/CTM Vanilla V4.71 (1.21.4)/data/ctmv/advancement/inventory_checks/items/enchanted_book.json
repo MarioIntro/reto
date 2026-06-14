@@ -1,0 +1,25 @@
+{
+  "parent": "ctmv:inventory_checks/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "components": {
+              "minecraft:stored_enchantments": {
+                "minecraft:bane_of_arthropods": 5
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ctmv:obtain_item/advancements/enchanted_book"
+  }
+}

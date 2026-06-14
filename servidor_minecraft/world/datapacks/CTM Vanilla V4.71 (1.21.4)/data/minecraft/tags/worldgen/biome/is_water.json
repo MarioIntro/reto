@@ -1,0 +1,16 @@
+{
+    "values": [
+        "ocean",
+        "cold_ocean",
+        "deep_ocean",
+        "warm_ocean",
+        "lukewarm_ocean",
+        "deep_cold_ocean",
+        "deep_lukewarm_ocean",
+        "river",
+        "beach",
+        "frozen_ocean",
+        "frozen_river",
+        "deep_frozen_ocean"
+    ]
+}

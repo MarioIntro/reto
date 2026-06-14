@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:coal_block"
+      },
+      "title": {
+        "text": "Block of Coal",
+        "color": "#3D3D3D",
+        "bold": true,
+        "italic": false
+      },
+      "description": "",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ctmv:english/hard/white",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:gold_block"
+      },
+      "title": {
+        "text": "Block of Gold",
+        "color": "#FFE627",
+        "bold": true,
+        "italic": false
+      },
+      "description": "",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ctmv:english/nightmare/gray",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+    }
+  }
+}

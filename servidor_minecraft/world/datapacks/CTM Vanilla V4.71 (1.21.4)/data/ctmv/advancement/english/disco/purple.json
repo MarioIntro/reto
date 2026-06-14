@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_11"
+    },
+    "title": {
+      "text": "Purple wool",
+      "color": "dark_purple",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtain C418 - 11",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:english/disco/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

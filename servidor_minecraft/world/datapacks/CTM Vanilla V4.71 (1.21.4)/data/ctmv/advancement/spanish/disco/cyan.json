@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_ward"
+    },
+    "title": {
+      "text": "Lana cian",
+      "color": "dark_aqua",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Obtén C418 - ward",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ctmv:spanish/disco/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

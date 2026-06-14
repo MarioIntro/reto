@@ -1,0 +1,12 @@
+{
+    "parent": "ctmv:inventory_checks/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity"
+      }
+    },
+    "rewards": {
+      "function": "ctmv:game/stats_kill_mob"
+    }
+  }
+  
